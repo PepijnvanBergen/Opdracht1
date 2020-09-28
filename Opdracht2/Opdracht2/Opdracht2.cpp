@@ -6,14 +6,15 @@
 int main()
 {
 	/*
-	Als eerst word een functie aangeroepen waar alle studenten en docenten in de module worden gestopt waar ze bij horen.
+	Eerst worden de studenten en docenten aangemaakt.
+	studentMaker()
+	teacherMaker()
+
+	Daarna wordt een functie aangeroepen waar alle studenten en docenten in de module worden gestopt waar ze bij horen.
 	teToModule()
 	
 	Vervolgens gaan de modules kijken of ze in de klaslokalen passen.
 	toClassroom()
-	
-	
-	
 	
 	*/
 }
@@ -36,4 +37,11 @@ int toClassroom() {
 
 	Als er te veel studenten zijn voor het aantal uur dat er les gegeven moet worden dan wordt er opgeschoven naar een volgend lokaal.
 	*/
+}
+
+int studentMaker() {
+	//Hier worden alle studenten aangemaakt.
+}
+int teacherMaker() {
+	//Hier worden alle docenten aangemaakt.
 }
